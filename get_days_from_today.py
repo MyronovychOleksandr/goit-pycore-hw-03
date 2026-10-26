@@ -1,9 +1,6 @@
 from datetime import datetime
 
 def get_days_from_today(date: str) -> int | None:
-    """
-    Retuns time difference from today
-    """
     if type(date) != str:
         print("Put correct date in string format!")
         return None
